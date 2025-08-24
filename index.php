@@ -5,5 +5,16 @@
 </html>
 
 <?php 
-    echo "hello world"
+    echo "hello world";
+    $x = 15;
+    $y = 3;
+    $sum = $x + $y;
+    echo "The sum is $sum";
+?>
+<br>
+<?php
+    $x = 15;
+    $y = 3;
+    $sum = $x + $y;
+    echo "The sum is $sum.";
 ?>
