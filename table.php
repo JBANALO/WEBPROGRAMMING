@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Table</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <?php
@@ -17,6 +18,8 @@
             array("no."=>6,"name"=>"Product F ", "price"=>11, "stock"=>18),
         );
     ?>
+    <div class= "table-container"></div>
+    <h2 style="text-align:left;">Dynamic Table</h2>
     <table border=1>
         <tr>
             <th>No.</th>
@@ -24,12 +27,7 @@
             <th>Price</th>
             <th>Stock</th>
         </tr>
-        <tr>
-            <td>1</td>
-            <td>Product A</td>
-            <td>10.5</td>
-            <td>12</td>
-        </tr>
+       
         <?php
             foreach($products as $p){
         ?>
